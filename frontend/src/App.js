@@ -6,7 +6,8 @@ import Debts from './components/Debts';
 import History from './components/History';
 import MemberFilter from './components/MemberFilter';
 
-const API = axios.create({ baseURL: 'http://localhost:5000' });
+const API = axios.create({ baseURL: 'https://expense-sharer.onrender.com' });
+
 
 function App() {
   const [members, setMembers] = useState([]);
