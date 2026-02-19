@@ -1,0 +1,23 @@
+{
+  "members": [
+    "Bosco",
+    "jerard",
+    "vaishanav"
+  ],
+  "expenses": [
+    {
+      "id": 1771500910701,
+      "paidBy": "Bosco",
+      "amount": 200,
+      "description": "Rice",
+      "date": "19/2/2026, 5:05:10 pm"
+    },
+    {
+      "id": 1771501561877,
+      "paidBy": "jerard",
+      "amount": 1000,
+      "description": "gas",
+      "date": "19/2/2026, 5:16:01 pm"
+    }
+  ]
+}

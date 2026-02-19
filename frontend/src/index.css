@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #0f0c1f, #1a1a2e, #16213e);
+  min-height: 100vh;
+  padding: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.card h2 {
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+button:hover { 
+  background: #218838; 
+}
+.green-btn { 
+  background: #28a745; 
+}
+.green-btn:hover { 
+  background: #218838; 
+}
+.delete-btn {
+  background: #dc3545;
+  padding: 5px 10px;
+  margin: 0;
+  width: auto;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.delete-btn:hover { 
+  background: #c82333; 
+}
+.list {
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.list li {
+  padding: 10px;
+  background: #f8f9fa;
+  margin: 5px 0;
+  border-radius: 5px;
+  border-left: 4px solid #28a745;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.debt-item {
+  padding: 12px;
+  background: #f8f9fa;
+  margin: 8px 0;
+  border-radius: 5px;
+  border-left: 4px solid #dc3545;
+  display: flex;
+  justify-content: space-between;
+}
+.history-item {
+  padding: 10px;
+  background: #f8f9fa;
+  margin: 8px 0;
+  border-radius: 5px;
+  font-size: 14px;
+  position: relative;
+  padding-right: 40px;
+  border-left: 4px solid #28a745;
+}
+.history-item small { 
+  color: #666; 
+  display: block; 
+  margin-top: 5px; 
+}
+.history-item .description { 
+  color: #333; 
+  font-style: italic;
+  margin: 3px 0;
+}
+.empty-msg { 
+  color: #999; 
+  text-align: center; 
+  padding: 20px; 
+}
+.red { 
+  color: #dc3545; 
+}
+.green { 
+  color: #28a745; 
+}
